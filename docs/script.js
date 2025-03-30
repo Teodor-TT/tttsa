@@ -1,4 +1,4 @@
-const apiKey = '127f032704f3e9000e01260dca812684'; // Replace with your updated Last.fm API key
+const apiKey = '7d35a910ac15dad30ead390cec2fbea4'; // Replace with your Last.fm API key
 
 // Fetch top tracks for the selected genre
 async function fetchTopTracks(genre) {
