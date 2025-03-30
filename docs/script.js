@@ -71,7 +71,7 @@ async function fetchNewestAlbums() {
 // Render tracks in the DOM
 function renderTracks(tracks, outputId) {
     const output = document.getElementById(outputId);
-    output.innerHTML = ''; // Clear existing content
+    output.innerHTML = '';
     tracks.forEach((track) => {
         const trackHTML = `
             <p>
@@ -79,14 +79,14 @@ function renderTracks(tracks, outputId) {
                 <span class="song-time">${track.artist.name}</span>
             </p>
         `;
-        output.innerHTML += trackHTML; // Add track details with a dot before each name
+        output.innerHTML += trackHTML; 
     });
 }
 
 // Render albums in the DOM
 function renderAlbums(albums, outputId) {
     const output = document.getElementById(outputId);
-    output.innerHTML = ''; // Clear existing content
+    output.innerHTML = ''; 
     albums.forEach((album) => {
         const albumHTML = `
             <p>
@@ -94,7 +94,7 @@ function renderAlbums(albums, outputId) {
                 <span class="song-time">${album.artist.name}</span>
             </p>
         `;
-        output.innerHTML += albumHTML; // Add album details with a dot before each name
+        output.innerHTML += albumHTML;
     });
 }
 
