@@ -1,8 +1,8 @@
-const apiKey = '7d35a910ac15dad30ead390cec2fbea4'; // Replace with your Last.fm API key
+const apiKey = '127f032704f3e9000e01260dca812684'; // Replace with your updated Last.fm API key
 
 // Fetch top tracks for the selected genre
 async function fetchTopTracks(genre) {
-    const url = `http://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=${genre}&api_key=${apiKey}&format=json`;
+    const url = `https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=${genre}&api_key=${apiKey}&format=json`;
 
     try {
         const response = await fetch(url);
@@ -19,7 +19,7 @@ async function fetchTopTracks(genre) {
 
 // Fetch top albums for the selected genre
 async function fetchTopAlbums(genre) {
-    const url = `http://ws.audioscrobbler.com/2.0/?method=tag.gettopalbums&tag=${genre}&api_key=${apiKey}&format=json`;
+    const url = `https://ws.audioscrobbler.com/2.0/?method=tag.gettopalbums&tag=${genre}&api_key=${apiKey}&format=json`;
 
     try {
         const response = await fetch(url);
@@ -36,7 +36,7 @@ async function fetchTopAlbums(genre) {
 
 // Fetch newest tracks
 async function fetchNewestTracks() {
-    const url = `http://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=${apiKey}&format=json`;
+    const url = `https://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=${apiKey}&format=json`;
 
     try {
         const response = await fetch(url);
@@ -53,7 +53,7 @@ async function fetchNewestTracks() {
 
 // Fetch newest albums
 async function fetchNewestAlbums() {
-    const url = `http://ws.audioscrobbler.com/2.0/?method=chart.gettopalbums&api_key=${apiKey}&format=json`;
+    const url = `https://ws.audioscrobbler.com/2.0/?method=chart.gettopalbums&api_key=${apiKey}&format=json`;
 
     try {
         const response = await fetch(url);
