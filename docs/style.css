@@ -113,6 +113,7 @@ h4 {
     margin-top: 60px;
     border-radius: 30px;
     width: 80%;
+    justify-content: center; 
 }
 
 section {
