@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MUSIC</h1>
+        <nav>
+            <div>
+                <h2>Choose genre:</h2>
+                <select id="genre">
+                    <option value="pop">Pop</option>
+                    <option value="hip-hop">Hip-Hop</option>
+                    <option value="rock">Rock</option>
+                    <option value="jazz">Jazz</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="music-container">
+            <section id="top-tracks">
+                <h3>TOP 5 SONGS</h3>
+                <div id="tracks-output"></div>
+            </section>
+            <section id="top-albums">
+                <h3>TOP 5 ALBUMS</h3>
+                <div id="albums-output"></div>
+            </section>
+        </div>
+        <div id="new-music-container">
+            <section id="new-tracks">
+                <h4>NEWEST SONGS</h4>
+                <div id="new-tracks-output"></div>
+            </section>
+            <section id="new-albums">
+                <h4>NEWEST ALBUMS</h4>
+                <div id="new-albums-output"></div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; API used: Last.fm API</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('pics/body.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    height: 200px;
+    width: 100%;
+    background-image: url('pics/header.jpg'); /* Ensure the path to the image is correct */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px gray;
+}
+/* Navigation styling */
+nav {
+    margin-top: 10px; /* Adds minimal spacing below the header title */
+    text-align: center;
+}
+
+nav div {
+    display: flex;
+    flex-direction: column; /* Stacks h2 and dropdown vertically */
+    align-items: center; /* Centers both elements */
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 5px; /* Adds space below "Choose genre:" */
+}
+
+select {
+    margin-top: 5px; /* Minimal spacing between h2 and dropdown */
+    display: block;
+}
+
+/* Titles styling */
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #e20101; /* Title color */
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -1px;
+}
+
+h4 {
+    color: #6801df; /* Subtitle color */
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -1px;
+}
+
+/* Song info styling */
+.song-name {
+    font-weight: bold;
+    color: #333;
+    margin-left: 10px;
+}
+
+.song-time {
+    font-style: italic;
+    color: #777;
+}
+
+.song-length {
+    color: #d9534f; /* Adds distinct styling for song length */
+}
+
+/* Music container layout */
+#music-container, #new-music-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 65px;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+
+section {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #1d1d1d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
