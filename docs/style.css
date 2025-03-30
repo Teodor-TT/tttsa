@@ -17,11 +17,11 @@ body {
 header {
     height: 200px;
     width: 100%;
-    background-image: url('pics/header.jpg'); /* Ensure the path to the image is correct */
+    background-image: url('pics/header.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
@@ -33,30 +33,30 @@ h1 {
     margin: 0;
     padding-bottom: 10px;
     font-weight: bold;
-    text-decoration: underline;
     text-shadow: 2px 2px 4px gray;
 }
+
 /* Navigation styling */
 nav {
-    margin-top: 10px; /* Adds minimal spacing below the header title */
+    margin-top: 10px; 
     text-align: center;
 }
 
 nav div {
     display: flex;
-    flex-direction: column; /* Stacks h2 and dropdown vertically */
-    align-items: center; /* Centers both elements */
+    flex-direction: column; 
+    align-items: center;
     margin-bottom: 10px;
 }
 
 h2 {
     font-size: 20px;
     margin: 0;
-    padding-bottom: 5px; /* Adds space below "Choose genre:" */
+    padding-bottom: 5px; 
 }
 
 select {
-    margin-top: 5px; /* Minimal spacing between h2 and dropdown */
+    margin-top: 5px; 
     display: block;
 }
 
@@ -71,19 +71,21 @@ select {
 }
 
 h3 {
-    color: #e20101; /* Title color */
+    color: #e20101;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     margin-top: -1px;
+        text-decoration: underline;
 }
 
 h4 {
-    color: #6801df; /* Subtitle color */
+    color: #6801df;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     margin-top: -1px;
+        text-decoration: underline;
 }
 
 /* Song info styling */
@@ -99,7 +101,7 @@ h4 {
 }
 
 .song-length {
-    color: #d9534f; /* Adds distinct styling for song length */
+    color: #d9534f;
 }
 
 /* Music container layout */
